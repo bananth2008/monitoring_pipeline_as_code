@@ -9,7 +9,7 @@
             "ansible_ssh_private_key_file": "/home/ubuntu/MonitoringAsCode/agentconfig/RanajitKeypair02.pem",
             "agent": [
               {
-                "module": "mongo",
+                "module": "mongodb",
                 "type": "metricbeat",
                 "hosts": [ "localhost:27017" ],
                 "port":"27017",

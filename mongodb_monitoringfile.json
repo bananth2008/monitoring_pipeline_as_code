@@ -1,6 +1,6 @@
 {
     "project": {
-      "name": "pet_shop",
+      "name": "pet_shop_1",
       "id": "1",
       "agent_provision": {
         "hosts": {

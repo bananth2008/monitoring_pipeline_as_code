@@ -36,7 +36,7 @@
               {
                 "module": "mongodb",
                 "type": "metricbeat",
-                "metricsets": ["status"],
+                "metricsets": ["status","replstatus"],
                  "hosts": [ "localhost:27017" ],
                 "port":"27017",
                 "username":"",

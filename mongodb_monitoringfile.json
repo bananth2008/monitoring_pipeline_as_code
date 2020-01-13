@@ -11,8 +11,7 @@
               {
                 "module": "mongo",
                 "type": "metricbeat",
-                "metricsets": ["dbstats","status"],
-                 "hosts": [ "localhost:27017" ],
+                "hosts": [ "localhost:27017" ],
                 "port":"27017",
                 "username":"",
                 "password":""

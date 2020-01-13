@@ -1,6 +1,6 @@
 {
     "project": {
-      "name": "pet_shop1",
+      "name": "pet_shop",
       "id": "1",
       "agent_provision": {
         "hosts": {
@@ -11,8 +11,18 @@
               {
                 "module": "mongodb",
                 "type": "metricbeat",
-                "hosts": [ "localhost:27017" ],
+                "metricsets": ["status"],
+                 "hosts": [ "localhost:27017" ],
                 "port":"27017",
+                "username":"",
+                "password":""
+              },
+               {
+                "module": "mongodb",
+                "type": "metricbeat",
+                "metricsets": ["collstats", "metrics", "replstatus"],
+                 "hosts": [ "localhost:23456" ],
+                "port":"23456",
                 "username":"",
                 "password":""
               }
